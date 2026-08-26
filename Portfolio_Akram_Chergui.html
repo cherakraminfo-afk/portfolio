@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chergui Akram — Développeur Full-Stack Web & Mobile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo"><span class="dot"></span>akram.chergui</a>
+      <nav class="links">
+        <a href="#accueil">accueil</a>
+        <a href="#competences">competences</a>
+        <a href="#projets">projets</a>
+        <a href="#parcours">parcours</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">me contacter →</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <span class="eyebrow">développeur full-stack web &amp; mobile</span>
+          <h1>Je conçois des produits <span class="accent">web &amp; mobile</span>, du cahier des charges au
+            déploiement.</h1>
+          <p class="lead">Chergui Akram — basé à Beni Messous, Alger. Je construis des interfaces soignées et des
+            back-ends solides, du prototype Figma jusqu'à l'application livrée.</p>
+
+          <div class="hero-cta">
+            <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+            <a href="#contact" class="btn btn-ghost">Me contacter</a>
+          </div>
+
+          <div class="stack-strip">
+            <span class="pill">React</span>
+            <span class="pill">Next.js</span>
+            <span class="pill">Node.js</span>
+            <span class="pill">Laravel</span>
+            <span class="pill">Flutter</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">Docker</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="terminal">
+            <div class="term-bar">
+              <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+              <span class="term-title">akram@dz — zsh</span>
+            </div>
+            <div class="term-body" id="terminal-body"></div>
+          </div>
+
+          <div class="avatar-frame">
+            <img src="akram.jpg.png" alt="Photo de Chergui Akram">
+            <span class="avatar-badge"><span class="dot"></span>Disponible pour de nouveaux projets</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- SKILLS -->
+    <section id="competences">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">stack &amp; outils</span>
+          <h2>Compétences &amp; technologies</h2>
+          <p>La boîte à outils que j'utilise au quotidien pour passer d'une idée à un produit fonctionnel — interface,
+            serveur, données et déploiement.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="card-bar"><span class="sq" style="background:var(--accent)"></span>frontend.config</div>
+            <div class="card-body">
+              <div class="tag-row">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="card-bar"><span class="sq" style="background:var(--mint)"></span>backend.config</div>
+            <div class="card-body">
+              <div class="tag-row">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">PHP / Laravel</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="card-bar"><span class="sq" style="background:var(--amber)"></span>tools.config</div>
+            <div class="card-body">
+              <div class="tag-row">
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">VS Code</span>
+                <span class="tech-tag">Android Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="soft-skills reveal">
+          <span class="label">soft skills —</span>
+          <span class="pill">Gestion de projet</span>
+          <span class="pill">Travail en équipe</span>
+          <span class="pill">Résolution de problèmes</span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- PROJECTS -->
+    <section id="projets">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">travaux récents</span>
+          <h2>Projets</h2>
+          <p>Trois projets menés du besoin métier jusqu'à l'interface livrée.</p>
+        </div>
+
+        <!-- RAYA -->
+        <div class="project reveal">
+          <div class="project-media">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+                <span class="browser-url">raya.netlify.app</span>
+              </div>
+              <div class="media-duo">
+                <img src="raya1.jpg.png" alt="RAYA — Page d'accueil boutique d'abayas">
+                <img src="raya2.jpg.png" alt="RAYA — Catalogue interactif des modèles">
+              </div>
+            </div>
+          </div>
+          <div class="project-text">
+            <span class="kicker">◆ Boutique d'abayas · Alger</span>
+            <h3>RAYA — Abaya Store</h3>
+            <p>Conception et développement d'un site vitrine one-page pour une boutique d'abayas basée à Alger. Le site
+              inclut une présentation de marque (hero, manifeste, savoir-faire), une galerie collection, un catalogue de
+              modèles interactif où chaque photo révèle son prix au clic, un sélecteur de couleurs par modèle, ainsi
+              qu'un formulaire de commande complet (nom, téléphone, wilaya, adresse, produit, couleur, quantité) qui
+              enregistre automatiquement chaque commande dans un Google Sheet via Google Apps Script — sans backend ni
+              base de données.</p>
+            <p>Stack : HTML, CSS, JavaScript vanilla, Google Apps Script. Fonctionnalités clés : design responsive,
+              animations au scroll, formulaire de commande avec validation côté client, intégration Meta Pixel pour le
+              suivi publicitaire. Déploiement : Netlify.</p>
+            <div class="project-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript vanilla</span>
+              <span class="tech-tag">Google Apps Script</span>
+              <span class="tech-tag">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- GreenSteps -->
+        <div class="project reverse reveal">
+          <div class="project-media">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+                <span class="browser-url">greensteps.ooredoo.dz</span>
+              </div>
+              <div class="media-duo">
+                <img src="greensteps1.jpg.png" alt="GreenSteps — Site web Ooredoo">
+                <img src="greensteps2.jpg.png" alt="GreenSteps — Application mobile">
+              </div>
+            </div>
+          </div>
+          <div class="project-text">
+            <span class="kicker">◆ Ooredoo Algérie · Mémoire de fin de formation</span>
+            <h3>GreenSteps</h3>
+            <p>Une application mobile pensée pour engager la communauté Ooredoo autour de gestes écologiques concrets :
+              économie d'eau, recyclage, réduction du plastique, plantation d'arbres. Chaque utilisateur suit sa
+              progression et l'impact environnemental de ses actions au fil du temps.</p>
+            <p>Côté organisation, un dashboard d'administration permet aux équipes Ooredoo d'ajouter, modifier et suivre
+              les défis proposés à la communauté.</p>
+            <div class="project-tags">
+              <span class="tech-tag">Application mobile</span>
+              <span class="tech-tag">Dashboard admin</span>
+              <span class="tech-tag">Sensibilisation environnementale</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sihatek -->
+        <div class="project reveal">
+          <div class="project-media">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+                <span class="browser-url">sihatek.app</span>
+              </div>
+              <div class="media-duo">
+                <img src="clinic.jpg.png" alt="Sihatek — Gestion de clinique">
+              </div>
+            </div>
+          </div>
+          <div class="project-text">
+            <span class="kicker">◆ Projet de fin d'études</span>
+            <h3>Sihatek — gestion médicale</h3>
+            <p>Une plateforme complète pour digitaliser le quotidien d'une clinique : les patients prennent rendez-vous
+              en ligne, les médecins gèrent ordonnances et dossiers médicaux, et l'administrateur pilote utilisateurs,
+              rendez-vous et prescriptions depuis un tableau de bord unique.</p>
+            <p>L'ensemble est accessible via le web et une application mobile Flutter, synchronisées en temps réel grâce
+              à une API centralisée développée avec Laravel.</p>
+            <div class="project-tags">
+              <span class="tech-tag">Laravel API</span>
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Web</span>
+              <span class="tech-tag">Base de données centralisée</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- FORMATION -->
+    <section id="parcours">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">formation</span>
+          <h2>Parcours</h2>
+        </div>
+        <div class="formation-card reveal">
+          <div class="formation-icon">🎓</div>
+          <div>
+            <h3>Technicien Supérieur en Informatique — Développement Web et Mobile</h3>
+            <div class="meta">INSFP Audiovisuel, Echahid Ahmed Mehdi (Ouled Fayet)</div>
+            <p>Mémoire de fin de formation réalisé au sein d'Ooredoo Algérie : conception et développement du projet
+              GreenSteps, de la définition du besoin jusqu'à l'application livrée.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">restons en contact</span>
+          <h2>Contact</h2>
+          <p>Un projet web ou mobile en tête ? Écrivez-moi.</p>
+        </div>
+
+        <div class="contact-terminal reveal">
+          <a class="contact-row" href="mailto:cherakraminfo@gmail.com">
+            <span class="k">$ contact --email</span> cherakraminfo@gmail.com <span class="arrow">→</span>
+          </a>
+          <a class="contact-row" href="tel:+213560725781">
+            <span class="k">$ contact --tel</span> 05 60 72 57 81 <span class="arrow">→</span>
+          </a>
+          <a class="contact-row" href="https://www.linkedin.com/in/akram-chergui-500957402/" target="_blank"
+            rel="noopener">
+            <span class="k">$ contact --linkedin</span> akram-chergui <span class="arrow">→</span>
+          </a>
+          <a class="contact-row" href="https://github.com/cherakraminfo-afk" target="_blank" rel="noopener">
+            <span class="k">$ contact --github</span> cherakraminfo-afk <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="status-bar">
+    <div class="status-inner">
+      <span class="status-left"><span class="dot"></span>disponible pour de nouveaux projets</span>
+      <span>Beni Messous, Alger</span>
+      <span>© 2026 Chergui Akram — UTF-8 · Français</span>
+    </div>
+  </footer>
+
+  <script>
+    // Terminal typing effect
+    (function () {
+      var body = document.getElementById('terminal-body');
+      var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      var lines = [
+        { type: 'cmd', text: 'whoami' },
+        { type: 'out', text: 'Chergui Akram — Développeur Full-Stack Web & Mobile' },
+        { type: 'cmd', text: 'cat status.txt' },
+        { type: 'out', text: '📍 Beni Messous, Alger  ·  ✅ disponible pour un nouveau projet' },
+        { type: 'cmd', text: 'ls competences/' },
+        { type: 'out', text: 'frontend/  backend/  mobile/  devops/' }
+      ];
+
+      if (reduced) {
+        lines.forEach(function (l) {
+          var div = document.createElement('div');
+          if (l.type === 'cmd') {
+            div.className = 'term-line';
+            div.innerHTML = '<span class="prompt">akram@dz</span><span class="path"> ~ %</span> ' + l.text;
+          } else {
+            div.className = 'term-out';
+            div.textContent = l.text;
+          }
+          body.appendChild(div);
+        });
+        return;
+      }
+
+      var li = 0, ci = 0;
+      function typeNext() {
+        if (li >= lines.length) return;
+        var l = lines[li];
+
+        if (l.type === 'cmd') {
+          if (ci === 0) {
+            var div = document.createElement('div');
+            div.className = 'term-line';
+            div.innerHTML = '<span class="prompt">akram@dz</span><span class="path"> ~ %</span> <span class="cmdtext"></span><span class="cursor"></span>';
+            body.appendChild(div);
+          }
+          var target = body.lastElementChild.querySelector('.cmdtext');
+          if (ci < l.text.length) {
+            target.textContent += l.text[ci];
+            ci++;
+            setTimeout(typeNext, 34);
+          } else {
+            body.lastElementChild.querySelector('.cursor').remove();
+            ci = 0; li++;
+            setTimeout(typeNext, 220);
+          }
+        } else {
+          var out = document.createElement('div');
+          out.className = 'term-out';
+          out.textContent = l.text;
+          body.appendChild(out);
+          li++;
+          setTimeout(typeNext, 260);
+        }
+      }
+      typeNext();
+    })();
+
+    // Scroll reveal
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        els.forEach(function (e) { e.classList.add('in'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(function (e) { io.observe(e); });
+    })();
+  </script>
+
+</body>
+
+</html>
